@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+table{
+	margin: 5px;
+	width: 65vw;
+	font-size: 30px;
+	height: 40vh;
+}
+
+th{
+	text-align: left;
+}
+
+th, td{
+	border: 1px solid;
+	border-radius: 5px; 
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: lightgray;
+	
+}
